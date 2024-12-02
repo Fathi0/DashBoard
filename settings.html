@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page setting d-flex">
+      <div class="sidebar p-4 bg-white position-relative">
+        <h3 class="position-relative text-center mt-0">Elzero</h3>
+        <ul class="pt-5">
+          <li class="mt-2">
+            <a
+              class="d-flex align-items-center text-black text-center text-decoration-none"
+              href="index.html"
+            >
+              <i class="fa-regular fa-chart-bar"></i>
+              <span class="ps-3">Dashboard</span></a
+            >
+          </li>
+          <li class="mt-2">
+            <a
+              class="d-flex active  align-items-center text-black text-center text-decoration-none"
+              href="settings.html"
+            >
+              <i class="fa-solid fa-gear"></i>
+              <span class="ps-3">Settings</span></a
+            >
+          </li>
+          <li class="mt-2">
+            <a
+              class="d-flex align-items-center text-black text-center text-decoration-none"
+              href="profile.html"
+            >
+              <i class="fa-regular fa-user"></i>
+              <span class="ps-3">Profile</span></a
+            >
+          </li>
+          <li class="mt-2">
+            <a
+              class="d-flex align-items-center text-black text-center text-decoration-none"
+              href="project.html"
+            >
+              <i class="fa-solid fa-share-nodes"></i>
+              <span class="ps-3">Projects</span></a
+            >
+          </li>
+          <li class="mt-2">
+            <a
+              class="d-flex align-items-center text-black text-center text-decoration-none"
+              href="cours.html"
+            >
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span class="ps-3"> Courses</span></a
+            >
+          </li>
+          <li class="mt-2">
+            <a
+              class="d-flex  align-items-center text-black text-center text-decoration-none"
+              href="freind.html"
+            >
+              <i class="fa-regular fa-circle-user"></i>
+              <span class="ps-3"> Friends</span></a
+            >
+          </li>
+          <li class="mt-2">
+            <a
+              class="d-flex align-items-center text-black text-center text-decoration-none"
+              href="files.html"
+            >
+              <i class="fa-regular fa-file"></i>
+              <span class="ps-3">Files</span></a
+            >
+          </li>
+          <li class="mt-2">
+            <a
+              class="d-flex align-items-center text-black text-center text-decoration-none"
+              href="plan.html"
+            >
+              <i class="fa-regular fa-credit-card"></i>
+              <span class="ps-3"> Plans</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="content w-100 overflow-hidden">
+        <div
+          class="head bg-white d-flex align-items-center justify-content-between"
+        >
+          <div class="search position-relative">
+            <input type="search" placeholder="Type A Keyword" />
+          </div>
+          <div class="icons d-flex align-items-center">
+            <span class="nat position-relative">
+              <i class="fa-regular fa-bell"></i>
+            </span>
+            <img src="images/avatar.png" alt="" />
+          </div>
+        </div>
+        <h1 class="position-relative fw-bold fs-2 text-black">Settings</h1>
+        <div
+          class="boxes row align-items-center justify-content-center gap-3 g-3"
+        >
+          <div class="box box-1 col-md-5 p-4 bg-white overflow-hidden control">
+            <h2 class="m-0">Site Control</h2>
+            <p class="gray">Control The Website If There Is Maintenance</p>
+            <div class="d-flex align-items-center justify-content-between">
+              <div>
+                <p class="fs-6">Website Control</p>
+                <p class="fs-7 gray">Open/Close Website And Type The Reason</p>
+              </div>
+              <div class="checkbox-wrapper-25">
+                <input type="checkbox" />
+              </div>
+            </div>
+            <textarea
+              class="d-block w-100"
+              placeholder="Close Message Content"
+            ></textarea>
+          </div>
+          <div class="box box-2 col-md-5 p-4 bg-white overflow-hidden info">
+            <h2 class="m-0">General Info</h2>
+            <p class="gray">General Information About Your Account</p>
+            <form action="">
+              <p class="gray mb-1 fs-7">First Name</p>
+              <input name="first" type="text" placeholder="First Name" />
+              <p class="gray mb-1 fs-7">Last Name</p>
+              <input name="first" type="text" placeholder="Last Name" />
+              <p class="gray mb-1 fs-7">Email</p>
+              <div
+                class="d-flex gap-3 align-items-center justify-content-between"
+              >
+                <input
+                  name="first"
+                  class="dis bg-gray"
+                  type="text"
+                  disabled
+                  value="o@nn.sa"
+                />
+                <a href="" class="fs-5 text-decoration-none">Change</a>
+              </div>
+            </form>
+          </div>
+          <div class="box box-3 col-md-5 p-4 bg-white overflow-hidden security">
+            <h2 class="m-0">Security Info</h2>
+            <p class="gray">Security Information About Your Account</p>
+            <div
+              class="d-flex bot mb-4 align-items-center justify-content-between"
+            >
+              <div>
+                <p class="fs-6 mb-1">Password</p>
+                <p class="fs-7 gray">Last Change On 25/10/2021</p>
+              </div>
+              <a
+                class="text-decoration-none p-1 bg-blue text-white rounded-2"
+                href=""
+                >Change</a
+              >
+            </div>
+            <div
+              class="d-flex bot mb-4 align-items-center justify-content-between"
+            >
+              <div>
+                <p class="fs-6 mb-1">Two-Factor Authentication</p>
+                <p class="fs-7 gray">Enable/Disable The Feature</p>
+              </div>
+              <div class="checkbox-wrapper-25">
+                <input type="checkbox" />
+              </div>
+            </div>
+            <div
+              class="d-flex bot justify-content-between align-items-center mb-4"
+            >
+              <div>
+                <p class="fs-6 mb-1">Devices</p>
+                <p class="fs-7 gray">Check The Login Devices List</p>
+              </div>
+              <a
+                class="text-decoration-none p-1 bg-eee text-black rounded-2"
+                href=""
+                >Devices</a
+              >
+            </div>
+          </div>
+
+          <div class="box box-4 col-md-5 p-4 bg-white overflow-hidden social">
+            <h2 class="m-0">Social Info</h2>
+            <p class="gray">Social Media Information</p>
+            <div class="d-flex align-items-center mb-3">
+              <i
+                class="fa-brands icon fa-twitter d-flex align-items-center justify-content-center"
+              ></i>
+              <input class="w-100" placeholder="twitter Username" type="text" />
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <i
+                class="fa-brands icon fa-facebook-f d-flex align-items-center justify-content-center"
+              ></i>
+              <input
+                class="w-100"
+                placeholder="Facebook Username"
+                type="text"
+              />
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <i
+                class="fa-brands icon fa-linkedin d-flex align-items-center justify-content-center"
+              ></i>
+              <input
+                class="w-100"
+                placeholder="Linkedin Username"
+                type="text"
+              />
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <i
+                class="fa-brands icon fa-youtube d-flex align-items-center justify-content-center"
+              ></i>
+              <input class="w-100" placeholder="Youtube Username" type="text" />
+            </div>
+          </div>
+          <div class="box box-5 col-md-5 p-4 bg-white overflow-hidden wid">
+            <h2 class="m-0">Widgets Control</h2>
+            <p class="gray">how/Hide Widgets</p>
+            <div class="d-flex gap-2 align-items-center">
+              <input type="checkbox" checked />
+              <span class="pont">Quick Draft</span>
+            </div>
+            <div class="d-flex gap-2 align-items-center">
+              <input type="checkbox" checked />
+              <span class="pont">Yearly Targets</span>
+            </div>
+            <div class="d-flex gap-2 align-items-center">
+              <input type="checkbox" checked />
+              <span class="pont">Tickets Statistics</span>
+            </div>
+            <div class="d-flex gap-2 align-items-center">
+              <input type="checkbox" checked />
+              <span class="pont">Latest News</span>
+            </div>
+            <div class="d-flex gap-2 align-items-center">
+              <input type="checkbox" />
+              <span class="pont">Latest Tasks</span>
+            </div>
+            <div class="d-flex gap-2 align-items-center">
+              <input type="checkbox" checked />
+              <span class="pont">Top Search Items</span>
+            </div>
+          </div>
+          <div class="box box-6 col-md-5 p-4 bg-white overflow-hidden back">
+            <h2 class="m-0">Backup Manager</h2>
+            <p class="gray">Control Backup Time And Location</p>
+            <div class="d-flex gap-2 align-items-center">
+              <input type="radio" checked />
+              <span class="pont">Daily</span>
+            </div>
+            <div class="d-flex gap-2 align-items-center">
+              <input type="radio" />
+              <span class="pont">Weekly</span>
+            </div>
+            <div class="d-flex gap-2 align-items-center">
+              <input type="radio" />
+              <span class="pont">Monthly</span>
+            </div>
+            <div
+              class="d-flex align-items-center pt-4 justify-content-center gap-2"
+            >
+              <div class="bx text-center p-3 rounded-3">
+                <i class="fa-solid fa-server d-block mb-2"></i>
+                <p>Megaman</p>
+              </div>
+              <div class="bx active text-center p-3 ps-4 pe-4 rounded-3">
+                <i class="fa-solid fa-server d-block mb-2"></i>
+                <p>Zero</p>
+              </div>
+              <div class="bx text-center p-3 pe-4 ps-4 rounded-3">
+                <i class="fa-solid fa-server d-block mb-2"></i>
+                <p>Sigma</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
